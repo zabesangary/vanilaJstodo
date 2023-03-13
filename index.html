@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vanil JavaScript ToDo List</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="main-containter">
+      <h1>Vanila JavaScript</h1>
+      <div>
+  
+        <button onclick="handler.toggleAll();">toggleAll</button>
+      </div>
+      <div>
+        <button id="myBtn" onclick="handler.addTodo();">Add</button>
+        <input type="text" id="addTodoTextInput">
+      </div>
+
+      <div>
+        <button onclick="handler.changeTodo()">Change to do</button>
+        <input type="number" id="changeTodoPositionInput" >
+        <input type="text" id="changeTodoTextInput">
+      </div>
+      <div>
+        <button onclick="handler.deleteTodo()">Delete</button>
+        <input type="number" id="deleteTodoPositionInput">
+      </div>
+      <div>
+        <button onclick="handler.toggleCompleted();">toggleCompleted</button>
+        <input type="number" id="toggleCompletedInput" value="">
+
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- Hack in process -->    
+
+
+
+
+<!-- hack fialed -->
